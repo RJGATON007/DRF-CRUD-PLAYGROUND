@@ -27,4 +27,8 @@ urlpatterns = [
     path('api/auth/', include('accounts.urls')),
     
     path('api/v1/', include('products.urls')),
+    
+     # Books API
+    path("api/v1/", include("books.urls")),
+    
 ]

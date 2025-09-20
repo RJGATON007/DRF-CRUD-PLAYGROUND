@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     "employees",
     "blogs",
     "accounts",
-    "products"
+    "products",
+    "books",
 ]
 
 MIDDLEWARE = [
